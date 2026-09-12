@@ -6,11 +6,11 @@
 
 | STT | Họ và tên | Mã học viên | Vai trò trong nhóm (VD: facilitator, workflow, research, writer) |
 |-----|-----------|-------------|---------------------------------------------------------------|
-| 1   |           |             |                                                               |
-| 2   |           |             |                                                               |
-| 3   |           |             |                                                               |
-| 4   |           |             |                                                               |
-
+| 1   |Đào Đức Anh|2A202602567|Leader                                                     |
+| 2   |Trần Thu Phương|2A202602366|Writer                                                 |
+| 3   |Nguyễn Mạnh Hải|2A202602988 | Research                                             |
+| 4   |Nguyễn Quốc Tuấn | 2A202602910 |  Research                                         |
+| 5   |Lê Hưng |2A202602xxx|Research                                                      |
 **Candidate problem nhóm chọn (1 câu):**
 
 
