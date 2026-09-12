@@ -35,9 +35,9 @@
 > Gợi ý tự soi: tuần trước mất nhiều thời gian nhất vào việc gì? Việc gì hay trì hoãn? Người khác hay hỏi lại câu gì? Workflow nào ai cũng biết là chậm?
 
 **AI đã dùng ở Phase 1 (nếu có):**
-- Prompt đã hỏi:
-- Ý dùng được:
-- Ý bỏ vì không phải pain thật:
+- Prompt đã hỏi: "Gợi ý các bài toán lặp lại và tốn thời gian cho sinh viên năm 4 vừa học vừa làm, có thể ứng dụng OCR, Document AI và Speech-to-Text."
+- Ý dùng được: Live translation/transcript hỗ trợ video call (Problem 7), chuyển tài liệu giấy photo sang Word giữ nguyên layout (Problem 9).
+- Ý bỏ vì không phải pain thật: Tự động giải đề thi môn học hoặc viết code thay hoàn toàn (quá rộng, không có workflow rõ ràng và vi phạm tính trung thực học thuật).
 
 **Self-check Phase 1:**
 - [x] Đủ 5+ dòng, mỗi dòng có actor + số đo cụ thể

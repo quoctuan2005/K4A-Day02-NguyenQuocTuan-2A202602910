@@ -10,6 +10,30 @@
 | 4   | Lê Tuấn Hưng     | 2A202602665 | Thành viên         |
 | 5   | Nguyễn Mạnh Hải  | 2A202602988 | Thành viên         |
 
+---
+
+# Tổng hợp top 3 problems của các thành viên
+
+| # | Người đưa ra | Candidate problem | Người gặp vấn đề | Điểm nghẽn | Cảm nhận nhanh |
+|---|---|---|---|---|---|
+| 1 | Nguyễn Quốc Tuấn | Số hóa tài liệu giấy photo/sách in thành file Word | Sinh viên, nghiên cứu sinh | Vẽ lại khung bảng trong Word và copy-paste từng ô dữ liệu | Workflow rõ ràng, impact đo được tốt, dễ gặp lỗi nếu bảng phức tạp |
+| 2 | Nguyễn Quốc Tuấn | Video call / nói chuyện online với đối tác nước ngoài | Sinh viên, Intern | Không theo kịp giọng nói nhanh hoặc accent lạ trong thời gian thực | Pain thật khi đi làm, nhưng xử lý audio real-time có latency cao |
+| 3 | Nguyễn Quốc Tuấn | Viết báo cáo tuần của khoa / lab | Sinh viên, nghiên cứu sinh | Gom thông tin phân tán và viết tóm tắt khó khăn kỹ thuật | Lặp lại hàng tuần, dễ giải quyết bằng template kết hợp AI |
+| 4 | Đào Đức Anh | PM phải gom feedback từ nhiều nguồn để tạo weekly insight | Product Manager | Tìm kiếm và tổng hợp thông tin phân tán từ Slack, Support, Call | Impact lớn (2–6h/tuần), bài toán quen thuộc của PM |
+| 5 | Đào Đức Anh | PM phải tự nhóm các feedback giống nhau thành các pain point | Product Manager | Manual clustering + taxonomy không nhất quán; phân biệt wording khác nhau | Điểm nghẽn semantic rất rõ, cực kỳ phù hợp với AI, candidate mạnh nhất |
+| 6 | Đào Đức Anh | PM phải kiểm chứng một "customer pain" bằng evidence từ nhiều nguồn | Product Manager | Cross-source investigation, truy vết context qua nhiều hệ thống | Giá trị cao cho roadmap nhưng scope rộng và phụ thuộc data access |
+| 7 | Nguyễn Mạnh Hải | Luật sư rà soát hợp đồng (NDA) tìm điều khoản rủi ro thủ công | Luật sư, pháp chế | Đọc và đối chiếu từng điều khoản để phát hiện rủi ro | Impact lớn nhưng khó tiếp cận dữ liệu thật để validate trong lab |
+| 8 | Nguyễn Mạnh Hải | Chuyên viên tín dụng thẩm định hồ sơ vay SME thủ công | Chuyên viên tín dụng | Thu thập và thẩm định báo cáo tài chính qua nhiều bước | Quy trình phức tạp, giá trị cao nhưng khó tiếp cận domain ngân hàng |
+| 9 | Nguyễn Mạnh Hải | Ghi biên bản họp & theo dõi action item thủ công | PM, BA, thư ký | Chuyển note thô sang bản minute hoàn chỉnh và trích xuất task | Gần gũi, dễ làm nhưng impact thời gian tương đối nhỏ (~30 phút/buổi) |
+| 10 | Lê Tuấn Hưng | Tự động phân rã yêu cầu tính năng thành user story và test case | BA, Tech Lead, PO | Phân tích logic đa bước và dự báo xung đột kiến trúc tiềm ẩn | Rất tham vọng, thể hiện rõ vai trò AI nhưng scope quá lớn cho lab |
+| 11 | Lê Tuấn Hưng | Nghe lại recording/transcript cuộc họp để chắt lọc action items | Thành viên dự án, thư ký | Lọc thủ công các đoạn ghi âm dài, dễ sót việc không có keyword rõ | Nhu cầu thường xuyên, tối ưu tốt bằng LLM + workflow |
+| 12 | Lê Tuấn Hưng | Viết mô tả Pull Request (PR description) và tóm tắt code diff | Software Developer | Tóm tắt ngữ cảnh thay đổi trong git diff cho người review | Hữu ích cho dev hàng ngày nhưng tính cấp thiết chưa vượt trội |
+| 13 | Trần Thu Phương | Debug code/test mất nhiều thời gian do phải thử sửa nhiều lần | Sinh viên thực tập AI/Software | Phân tích traceback và context phân tán; thử sửa và test lặp lại | Nỗi đau thực tế của dev (20–40 phút/lỗi), impact đo lường rất rõ |
+| 14 | Trần Thu Phương | Setup môi trường Python và xử lý dependency lặp lại | Sinh viên thực tập, dev mới | Cài đặt thủ công, xung đột package/version Python khó tìm nguyên nhân | Thường gặp nhưng Rule/Script (Docker, Conda) giải quyết tốt hơn AI |
+| 15 | Trần Thu Phương | Hỏi mentor hỗ trợ debug bị thiếu thông tin nên phải hỏi qua lại | Sinh viên gặp lỗi, Mentor | Context debug thu thập không theo chuẩn, thiếu traceback và command | Pain giao tiếp thực tế, giải quyết được bằng format chuẩn hóa |
+
+---
+
 # Group convergence
 
 | Cluster                              | Candidate examples                                                                                                           | Pattern chung                                                                                                   |
@@ -17,6 +41,7 @@
 | **Research / tổng hợp thông tin**    | Đọc paper dài để tìm key; tóm tắt paper tương tự; tra cứu docs thư viện AI                                                   | Đọc nhiều nguồn → tìm thông tin quan trọng → tổng hợp lại                                                       |
 | **Báo cáo / chuyển đổi nội dung**    | Viết báo cáo tuần; chuyển Word → slide; báo cáo tiến độ thiếu summary                                                        | Lấy nội dung/data có sẵn → cấu trúc → viết lại thành output cho người khác                                      |
 | **Meeting / follow-up**              | Ghi meeting minutes; theo dõi action items; call với đối tác nước ngoài                                                      | Thu thập thông tin trong cuộc họp → ghi nhận → tổng hợp → follow-up                                             |
+| **Developer / Kỹ thuật & Debug**     | Debug code/test; setup môi trường Python; viết mô tả Pull Request                                                           | Gặp lỗi phân tán, môi trường không đồng nhất → mất nhiều thời gian tra cứu và thử sửa thủ công                  |
 | **Product feedback / PM operations** | Gom feedback từ nhiều nguồn; re-tag/regroup khi chuẩn bị roadmap; cluster feedback thành themes; tìm evidence cho pain point | **PM phải xử lý lượng lớn thông tin phân tán → tìm pattern → tổng hợp thành insight để ra quyết định sản phẩm** |
 
 ---
@@ -27,6 +52,7 @@
 | ------------------------------------- | -------: | ----------: | ---------------: | -------------: | ------------: | -----------------: | ---------------: | -------------------: | -------: |
 | **Customer Feedback Clustering – PM** |    **5** |       **5** |            **5** |          **5** |         **5** |              **5** |            **5** |                **5** |   **40** |
 | Weekly Report                         |        5 |           5 |                4 |              5 |             5 |                  5 |                5 |                    4 |   **38** |
+| Debug Code & Automated Testing        |        5 |           5 |                5 |              4 |             4 |                  5 |                5 |                    4 |   **37** |
 | Meeting Minutes + Action Items        |        5 |           5 |                4 |              4 |             5 |                  5 |                5 |                    4 |   **37** |
 | Research / Paper Summarization        |        5 |           4 |                5 |              4 |             5 |                  4 |                4 |                    4 |   **35** |
 | Word → Presentation Slides            |        5 |           5 |                3 |              4 |             5 |                  4 |                5 |                    4 |   **35** |
